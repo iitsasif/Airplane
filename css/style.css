@@ -1,0 +1,147 @@
+*,
+*:after,
+*:before {
+  -webkit-box-sizing: border-box;
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+}
+
+.banner{
+    width: 100%;
+    background: url(../image/bg-1.jpg) no-repeat center;
+    background-size: cover;
+}
+
+.top-header{
+    width: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    border-bottom: 1px solid #d4cccb;
+}
+
+.top-header i{
+    font-size: 1rem;
+    padding: 0 0.625rem 0 0;
+    color: red;
+    background-color: transparent;
+}
+
+.top-header h5{
+    font-size: 1rem;
+    color: #fff;
+}
+
+.social-links{
+    display: flex;
+}
+
+.social-links a{
+    width: 24px;
+    height: 24px;
+    text-align: center;
+    text-decoration: none;
+    background: #555;
+    margin: 2px;
+    border-radius: 50%;
+}
+
+.social-links .fab{
+    color: #fff;
+    font-size: 0.625rem;
+    padding: 1px;
+}
+.content{
+    position: relative;
+    width: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+}
+
+.contact-icon {
+    display: flex;
+    text-align: left;
+}
+
+.contact-icon a{
+    display: flex;
+    width: 40px;
+    height: 40px;
+    align-items: center;
+    justify-content: center;
+    font-size: 20px;
+    text-decoration: none;
+    background-color: red;
+    color: #fff;
+    margin: 5px;
+    border-radius: 4px;
+}
+
+.contact-icon h6{
+    margin: 10px;
+    color: #fff;
+}
+
+.contact-icon p{
+    font-size: 12px;
+    margin: 10px;
+    color: #fff;
+}
+
+.navigation-wrap{
+    background-color: red;
+    position: relative;
+    padding: 1rem;
+}
+
+.navigation-wrap .nav-link{
+    color: #fff;
+    margin-left: 1rem;
+}
+
+
+button.btn{
+    position: absolute;
+    right: 0;
+    margin-right: 5rem;
+    border: none;
+    background: #000;
+    padding: 12px 30px;
+    border-radius: 30px;
+    color: #fff;
+    font-weight: bold;
+    font-size: 15px;
+}
+
+.search-icon{
+    position: absolute;
+    right: 0;
+    left: 85%;
+    top: 40%;
+}
+
+h1{
+    margin-top: 12rem;
+    color: #fff;
+    font-size: 3rem;
+    font-weight: bold;
+}
+
+p{
+    font-size: 1rem;
+    color: #fff;
+}
+
+.main-btn{
+    margin-right: 5rem;
+    margin-bottom: 1rem;
+    border: none;
+    background: red;
+    padding: 12px 30px;
+    color: #fff;
+    font-weight: bold;
+    font-size: 15px;
+}
+
